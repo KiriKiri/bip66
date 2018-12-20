@@ -1,0 +1,7 @@
+README.md
+bip66
+setup.py
+bip66.egg-info/PKG-INFO
+bip66.egg-info/SOURCES.txt
+bip66.egg-info/dependency_links.txt
+bip66.egg-info/top_level.txt
