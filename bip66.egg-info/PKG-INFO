@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: bip66
-Version: 0.1
+Version: 0.4
 Summary: Strict DER signature encoding/decoding.
 Home-page: https://github.com/KiriKiri/bip66
 Author: Kirill Kirikov

@@ -1,7 +1,11 @@
 README.md
 bip66
 setup.py
+bip66/__init__.py
+bip66/bip66.py
 bip66.egg-info/PKG-INFO
 bip66.egg-info/SOURCES.txt
 bip66.egg-info/dependency_links.txt
 bip66.egg-info/top_level.txt
+test/__init__.py
+test/test_bip66.py
