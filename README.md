@@ -1,4 +1,8 @@
 Strict DER signature encoding/decoding.
+-
+
+This library is a migration of https://github.com/bitcoinjs/bip66 to python
+-
 
 See [bip66](https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki).
 
@@ -10,12 +14,13 @@ See [bip66](https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki).
 ## Example
 
 ``` python
+import binascii
 import bip66
 r = "29db2d5f4e1dcc04e19266cce3cb135865784c62ab653b307f0e0bb744f5c2aa"
 s = "00a97f5826912cac8b44d9f577a26f169a2f8db781f2ddb7de2bc886e93b6844"
 encoded = bip66.encode(binascii.unhexlify(r), binascii.unhexlify(s))
 signature = binascii.hexlify(encoded).decode()
-# > 00a97f5826912cac8b44d9f577a26f169a2f8db781f2ddb7de2bc886e93b6844
+# > 3044022029db2d5f4e1dcc04e19266cce3cb135865784c62ab653b307f0e0bb744f5c2aa022000a97f5826912cac8b44d9f577a26f169a2f8db781f2ddb7de2bc886e93b6844
 
 DER = "3044022029db2d5f4e1dcc04e19266cce3cb135865784c62ab653b307f0e0bb" \
       "744f5c2aa022000a97f5826912cac8b44d9f577a26f169a2f8db781f2ddb7de2bc886e93b6844"
