@@ -1,5 +1,12 @@
 Strict DER signature encoding/decoding.
 -
+[![PyPI version](https://badge.fury.io/py/bip66.svg)](https://badge.fury.io/py/bip66)
+
+Installation
+-
+```bash
+pip install bip66
+```
 
 This library is a migration of https://github.com/bitcoinjs/bip66 to python
 -
